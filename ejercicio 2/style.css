@@ -1,0 +1,73 @@
+:root{
+    --colorletra: aliceblue;
+    --colorForm: #3705ac ;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/17/07/06/laptop-3087585__340.jpg);
+    color: var(--colorletra);
+    font-family: sans-serif;
+}
+
+h1{
+    color: black;
+    font-weight: 700;
+}
+.cont{
+    
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+.cont__text{
+    color: black;
+}
+.cont__section1{
+    text-align: center;
+}
+
+.cont__section2{
+    background-color: var(--colorForm);
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    opacity: 0.9;
+    padding: 15px 0 15px 0;
+}
+
+.cont__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    font-weight: 600;
+    
+}
+
+.button {
+    background-color: #1b4902 ;
+    color: var(--colorletra);
+    border: none;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.cont__form--mod{
+    margin-top: 8px;
+}
+
+.cont__form__input--mod{
+    height: 30px;
+    border-radius: 3px;
+    color: grey;
+    font-family: sans-serif;
+}
+.cont__form__check--mod{
+    margin-right: 15px;
+
+}
+.cont_footer{
+    color: black;
+}
